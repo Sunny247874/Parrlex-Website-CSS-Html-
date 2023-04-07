@@ -1,0 +1,61 @@
+html,body{
+    height: 100%;
+    margin:0px;
+    font-size:16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400px;
+    line-height: 1.8em;
+    color: #313131; ;
+}
+.pimg1{
+      
+    background-image: url(plant1.jpg);
+    min-height: 100%;
+}
+.pimg2{
+    background-image: url(plant2.jpg);
+    min-height: 500px;
+}
+.pimg3{
+    background-image: url(plant3.jpg);
+    min-height: 500px;
+}
+.pimg4
+{
+    background-image: url(plant4.jpg);
+    min-height: 100%;
+}
+.pimg1,.pimg2,.pimg3,.pimg4{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.text{
+    position: absolute;
+    width: 100%;
+    top:50%;
+    text-align: center;
+    font-size: 40px;
+    font-weight:400;
+    text-transform: uppercase;
+    letter-spacing:4px;
+    color: black;
+}
+
+.textbg{
+    background-color: #313131;
+    color: aliceblue;
+    padding: 20px 40px;
+}
+.section{
+    /* position: absolute; */
+    text-align: center;
+    padding: 20px 40px;
+}
+.section-light{
+    background-color: #313131;
+    color: aliceblue;
+}
